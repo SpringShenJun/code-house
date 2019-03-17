@@ -5,6 +5,13 @@ import sun.misc.ProxyGenerator;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ *
+ > 满足代理模式应用场景的三个必要条件(穷取法)
+ > 1.两个角色：执行者、被代理对象
+ > 2.注重过程，必须要做，被代理对象没时间做或者不想做
+ > 3.执行者必须拿到被代理对象的引用
+ */
 class JdkProxyTest {
 
     public static void main(String[] args) {
