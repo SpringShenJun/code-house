@@ -14,7 +14,6 @@ public class Csj1Test {
         ApplicationContext context = new AnnotationConfigApplicationContext(Main1Config.class);
         String[] names = context.getBeanDefinitionNames();
         for (String name : names) {
-            System.out.println("name = " + name);
         }
     }
 }
