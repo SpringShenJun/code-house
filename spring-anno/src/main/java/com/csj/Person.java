@@ -12,7 +12,7 @@ public class Person implements Serializable {
     }
 
     public Person(Integer age, String name) {
-        System.out.println("Person(Integer age, String name)");
+        System.out.println("age = " + age + "name = " + name);
         this.age = age;
         this.name = name;
     }

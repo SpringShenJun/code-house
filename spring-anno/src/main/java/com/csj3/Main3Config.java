@@ -1,4 +1,4 @@
-package csj3;
+package com.csj3;
 
 import com.csj.Person;
 import org.springframework.context.annotation.Bean;
